@@ -1,0 +1,20 @@
+l =[1 ,2 ,4, 6 ,1]
+print(l)
+l.append(9)
+print(l)
+l.sort()
+print(l)
+l.reverse()
+print(l)
+print(l.index(4))
+print(l.count(1))
+#to copy
+m = l.copy()
+print(l)
+m.append(7)
+print(m)
+l.insert(1,899)
+print(l)
+u=[3,7,8]
+l.extend(u)
+print(l)
